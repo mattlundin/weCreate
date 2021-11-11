@@ -271,10 +271,10 @@ body::-webkit-scrollbar-thumb {
 	box-shadow: 1px 1px 3px #000;
 }
 
-.more {
+.blog .more {
 	display: none;
 }
-.dots {
+.blog .dots {
 	display: inline;
 }
 

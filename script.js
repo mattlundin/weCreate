@@ -12,7 +12,7 @@ window.onscroll = function () {
 	}
 	prevScrollpos = currentScrollPos;
 
-	if (window.display.width <= '500px') {
+	if (window.screen.width <= '500px') {
 		nav.style.top = '0';
 	}
 };
@@ -39,46 +39,6 @@ const navSlide = () => {
 };
 
 navSlide();
-
-//! SET BODY POSITION TO FIXED WHEN MOBILE NAV IS OPEN TO DISABLE SCROLLING
-
-//^ Hero typewriter
-// const textEl = document.querySelector('.text');
-// let textArr = [
-// 	'Dreams',
-// 	'Success',
-// 	'Passion',
-// 	'Transformation',
-// 	'Dedication',
-// 	'Positivity',
-// ];
-// let length;
-// let inx = 0;
-// let count = 0;
-// let letter = '';
-// let currentText = '';
-
-// window.addEventListener('DOMContentLoaded', function () {
-// 	type();
-// });
-// function type() {
-// 	let timeout = 1000;
-// 	for (let i = 0; i < textArr.length; i++) {
-// 		length = textArr[i].length;
-// 		letter = '';
-// 		for (let j = 0; j < length; j++) {
-// 			letter += textArr[i].charAt(j);
-// 			timeout += 800;
-// 			((timeout, letter, restart) => {
-// 				setTimeout(() => {
-// 					textEl.innerHTML = letter;
-// 					console.log(letter);
-// 					if (restart) type();
-// 				}, timeout);
-// 			})(timeout, letter, i === textArr.length - 1 && j === length - 1);
-// 		}
-// 	}
-// }
 
 const textEl = document.querySelector('.text');
 const textArr = [
