@@ -230,7 +230,7 @@ body::-webkit-scrollbar-thumb {
 	height: 50%;
 	width: 100%;
 	margin-top: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	top: 0;
 	left: 0;
 }
