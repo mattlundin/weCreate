@@ -12,7 +12,7 @@ window.onscroll = function () {
 	}
 	prevScrollpos = currentScrollPos;
 
-	if (window.display.width <= '500px') {
+	if (window.screen.width <= '500px') {
 		nav.style.top = '0';
 	}
 };
